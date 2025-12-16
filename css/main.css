@@ -19,7 +19,7 @@
 }
 
 h1 {
-	color: #523682;
+	color: #ffffff;
 	font-size: 42px;
 }
 h2 {
@@ -53,4 +53,40 @@ ul {
 }
 body {
 	font-family: "Poppins";
+}
+.top {
+	background-color:	var(--dark-pink);
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 0px 50px;
+}
+.free {
+	font-weight: 700;
+	background-color: var(--cyan-blue);
+	padding: 10px 30px;
+	border-radius: 9999px;
+}
+.white {
+	color: var(--white);
+}
+.vg {
+	width: 100%;
+	background-color: var(--dark-pink);
+}
+.fr {
+	padding: 40px 0px;
+}
+.del2 {
+	width: 100%;
+	background-color: var(--dark-pink);
+}
+.del3 {
+	width: 100%;
+	background-color: var(--dark-pink);
+}
+
+.pos {
+	display: flex;
+	position: relative;
 }
