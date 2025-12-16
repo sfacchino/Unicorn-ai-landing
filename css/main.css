@@ -54,9 +54,10 @@ ul {
 body {
 	font-family: "Poppins";
 }
-.top {
+.tophero {
 	background-color:	var(--dark-pink);
 	display: flex;
+	position: relative;
 	flex-direction: column;
 	align-items: start;
 	padding: 0px 50px;
@@ -86,7 +87,7 @@ body {
 	background-color: var(--dark-pink);
 }
 
-.pos {
+ul {
 	display: flex;
-	position: relative;
+	gap: 30px;
 }
