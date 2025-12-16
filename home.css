@@ -42,13 +42,17 @@
 	.txt {
 		width: 50%;
 	}
-    .uni {
-	display: flex;
-	position: absolute;
-	top: 130px;
-	right: -20px;
-	z-index: 2;
-}
+	.uni {
+		display: flex;
+		position: absolute;
+		top: 130px;
+		right: -20px;
+		z-index: 2;
+	}
+	.tt {
+		display: flex;
+		flex-direction: row;
+	}
 }
 @media screen and (min-width: 1024px) {
 	ul {
@@ -69,11 +73,11 @@
 	.txt {
 		width: 37%;
 	}
-    .uni {
-	display: flex;
-	position: absolute;
-	top: 120px;
-	right: 160px;
-	z-index: 2;
-}
+	.uni {
+		display: flex;
+		position: absolute;
+		top: 120px;
+		right: 160px;
+		z-index: 2;
+	}
 }
