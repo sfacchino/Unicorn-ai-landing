@@ -91,3 +91,42 @@ ul {
 	display: flex;
 	gap: 30px;
 }
+.middleavantage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+}
+.txtgap {
+	width: 90%;
+	color: #3A3A3A;
+}
+.firstp {
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	flex-direction: column;
+	width: 65%;
+	gap: 20px;
+}
+.secondp {
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	flex-direction: column;
+	width: 65%;
+	gap: 20px;
+}
+.thirdp {
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	flex-direction: column;
+	width: 65%;
+	gap: 20px;
+}
+.titre {
+	color: #3A3A3A;
+	font-weight: 700;
+}
