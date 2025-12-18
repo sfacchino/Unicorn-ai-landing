@@ -10,7 +10,7 @@
 		justify-content: space-between;
 		padding: 50px 50px 0px 50px;
 	}
-	.del {
+	.deluni {
 		display: none;
 	}
 	.del2 {
@@ -42,16 +42,12 @@
 	.txt {
 		width: 50%;
 	}
-	.uni {
+	.deluni {
 		display: flex;
 		position: absolute;
-		top: 130px;
-		right: -20px;
+		top: 120px;
+		right: 0px;
 		z-index: 2;
-	}
-	.tt {
-		display: flex;
-		flex-direction: row;
 	}
 }
 @media screen and (min-width: 1024px) {
@@ -71,13 +67,20 @@
 		display: flex;
 	}
 	.txt {
-		width: 37%;
+		width: 38%;
 	}
-	.uni {
+	.deluni {
 		display: flex;
 		position: absolute;
 		top: 120px;
 		right: 160px;
 		z-index: 2;
+	}
+	.middleavantage {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
 	}
 }

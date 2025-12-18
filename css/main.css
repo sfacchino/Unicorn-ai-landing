@@ -123,10 +123,13 @@ ul {
 	justify-content: start;
 	align-items: start;
 	flex-direction: column;
-	width: 65%;
+	width: 60%;
 	gap: 20px;
 }
 .titre {
 	color: #3A3A3A;
 	font-weight: 700;
+}
+.txt {
+	padding: 0 0 0 50px;
 }
