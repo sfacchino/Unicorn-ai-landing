@@ -49,6 +49,10 @@
 		right: 0px;
 		z-index: 2;
 	}
+	.firstp, .secondp {
+		display: flex;
+		flex-direction: row;
+	}
 }
 @media screen and (min-width: 1024px) {
 	ul {
